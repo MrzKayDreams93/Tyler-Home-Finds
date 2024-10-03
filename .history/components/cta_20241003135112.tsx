@@ -57,9 +57,6 @@ onMouseLeave={() => setIsHovered(false)}
 >
 {loading ? "Joining..." : "Join the fuss!"}
 </Button>
-
-
-
 </form>
 )
 }

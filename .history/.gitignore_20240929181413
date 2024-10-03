@@ -10,8 +10,6 @@
 /coverage
 .env.local
 .env
-*.swp
-not-found.tsx
 # next.js
 /.next/
 /out/

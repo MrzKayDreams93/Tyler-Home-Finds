@@ -2,6 +2,17 @@
 
 'use client'
 
+
+
+
+<div className="bg-white/80 backdrop-blur-md rounded-xl p-4 sm:p-8 space-y-4 sm:space-y-6 shadow-lg max-w-4xl w-full">
+<p className="text-lg sm:text-xl text-gray-700 font-medium drop-shadow-md" style={{ fontFamily: "'Segoe UI', 'Roboto', sans-serif" }}>
+  For nearly half a century, TYLER'S has been the heart of family shopping in Texas and a go-to destination!
+</p>
+
+
+
+
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -57,6 +68,17 @@ onMouseLeave={() => setIsHovered(false)}
 >
 {loading ? "Joining..." : "Join the fuss!"}
 </Button>
+
+
+
+
+
+          <p className="text-lg sm:text-xl text-gray-700 font-medium drop-shadow-md" style={{ fontFamily: "'Segoe UI', 'Roboto', sans-serif" }}>
+            Join the waitlist for this EXCITING NEW addition that's gonna make TYLER'S HOME FINDS that HOME GO-TO DESTINATION!
+          </p>
+        </div>
+
+
 
 
 
